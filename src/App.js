@@ -12,7 +12,10 @@ function App () {
       <h1>App loaded</h1>
       <button onClick={handleToggleClick}>See Description</button>
       {displayDescription &&
-        <div className="description">Here&apos;s your super slick application homie!</div>
+        <div className="description">
+          <h2>Sick App!</h2>
+          <p>Here&apos;s your super slick application homie!</p>
+        </div>
       }
     </div>
   );
