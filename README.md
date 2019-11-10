@@ -12,6 +12,5 @@ $ npm run dev
 
 ## Wish List
 
-- Add tests to master branch
 - Branch for redux
 - Branch for TypeScript
