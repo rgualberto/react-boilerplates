@@ -4,4 +4,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
   background: #fbfbfb;
+  font-size: 18px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  padding: 5px;
+  max-width: 200px;
+  font-size: 18px;
+  background: #0b85e6;
+  border-radius: 3px;
+  color: white;
+  border: 2px solid #000a13;
+  cursor: pointer;
+}
+
+.description {
+  margin-top: 20px;
 }
